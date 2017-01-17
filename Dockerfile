@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.7.0
+ENV VERSION=0.5.3
 
 RUN gem install apple-tv-converter --version ${VERSION} --no-format-exec
 
